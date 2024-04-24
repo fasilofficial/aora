@@ -60,7 +60,7 @@ const Create = () => {
     } catch (error) {
       Alert.alert("Errror", error.message);
     } finally {
-      // setForm({ title: "", video: null, thumbnail: null, prompt: "" });
+      setForm({ title: "", video: null, thumbnail: null, prompt: "" });
       setUploading(false);
     }
   };
